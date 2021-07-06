@@ -1,4 +1,11 @@
-# vuepress-github-pages-example [![CI](https://github.com/daggerok/vuepress-github-pages-example/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-github-pages-example/actions/workflows/ci.yaml)
+# Documentation example
+
+[[toc]]
+
+## vuepress-github-pages-example
+
+[![CI](https://github.com/daggerok/vuepress-github-pages-example/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/vuepress-github-pages-example/actions/workflows/ci.yaml)
+
 VuePress GitHub Pages quick documentation example
 
 You can run npm scripts outside npm project folder:
@@ -24,3 +31,9 @@ npm start -C docs
 npm run dev -C docs
 npm run build-github-pages -C docs
 ```
+
+## Code Snippets
+
+@[code lang=kotlin transcludeWith=::my-code-snippet](@/../src/main/kotlin/daggerok/App.kt)
+
+This file can be found here: `src/main/kotlin/daggerok/App.kt`

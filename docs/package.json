@@ -1,0 +1,34 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "VuePress GitHub Pages quick documentation example",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "build-github-pages": "cross-env BASE=/vuepress-github-pages-example/ npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "url": "https://github.com/daggerok/vuepress-github-pages-example",
+    "directory": "docs",
+    "docsBranch": "main"
+  },
+  "authors": {
+    "name": "Maksim Kostromin",
+    "url": "https://github.com/daggerok"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "16.0.0",
+    "@vuepress/plugin-back-to-top": "1.8.2",
+    "@vuepress/plugin-medium-zoom": "1.8.2",
+    "cross-env": "7.0.3",
+    "markdown-it-vuepress-code-snippet-enhanced": "1.0.1",
+    "rimraf": "3.0.2",
+    "vuepress": "1.8.2",
+    "vuepress-theme-default-prefers-color-scheme": "2.0.0"
+  }
+}
