@@ -1,4 +1,4 @@
-const { name: title, description, repository } = require(`${process.cwd()}/package.json`)
+const { name: title, description, repository } = require(`${process.cwd()}/package.json`);
 const base = process.env.BASE || '/';
 
 module.exports = {
@@ -10,6 +10,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
+  extend: '@vuepress/theme-default',
   theme: 'default-prefers-color-scheme',
   themeConfig: {
     repo: repository.url,

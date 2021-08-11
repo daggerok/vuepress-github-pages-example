@@ -1,6 +1,6 @@
 package com.gearsofleo.platform.aux.affiliate.service
 
-// tag::my-code-snippet
+// tag::my-code-snippet[]
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -12,4 +12,4 @@ fun main(args: Array<String>) {
         setRegisterShutdownHook(true)
     }
 }
-// end::my-code-snippet
+// end::my-code-snippet[]
